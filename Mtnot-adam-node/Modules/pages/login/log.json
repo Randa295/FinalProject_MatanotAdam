@@ -1,0 +1,18 @@
+[
+ {
+   "cName" : "form-group",
+   "labelfor" : "email",
+   "labeltitle" : " דואר אלקטרוני ",
+   "inputtype" : "email",
+   "inputcName" : "form-control",
+   "name" : "email"
+ },
+ {
+   "cName" : "form-group",
+   "labelfor" : "password",
+   "labeltitle" : "סיסמה",
+   "inputtype" : "password",
+   "inputcName" : "form-control",
+   "name" : "password"
+ }
+]

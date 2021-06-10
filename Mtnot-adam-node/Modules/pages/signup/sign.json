@@ -1,0 +1,42 @@
+[
+  {
+    "cName" : "form-group",
+    "labelfor" : "fname",
+    "labeltitle" : "שם פרטי",
+    "inputtype" : "text",
+    "inputcName" : "form-control",
+    "name" : "fname"
+  },
+  {
+    "cName" : "form-group",
+    "labelfor" : "lname" ,
+    "labeltitle" : "שם משפחה",
+    "inputtype" : "text",
+    "inputcName" : "form-control",
+    "name" : "lname"
+  },
+  {
+    "cName": "form-group" ,
+    "labelfor" : "number" ,
+    "labeltitle" : "מספר טלפון",
+    "inputtype" : "text",
+    "inputcName" : "form-control",
+    "name" : "number"
+  },
+  {
+    "cName" : "form-group",
+    "labelfor" : "email",
+    "labeltitle" : "דואר אלקטרוני",
+    "inputtype" : "email",
+    "inputcName" : "form-control",
+    "name" : "email"
+  },
+  {
+    "cName" : "form-group",
+    "labelfor" : "password",
+    "labeltitle" : "סיסמה",
+    "inputtype" : "email",
+    "inputcName" : "form-control",
+    "name" : "password"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "imgsrc":"/img/1.jpg",
+    "url": "/Gallery?cat=1",
+   "title": "כלי מטבח"
+  },
+  {
+    "imgsrc":"/img/2.webp",
+    "url": "/Gallery?cat=2",
+    "title": "כריות וטקסטיל"
+
+  },
+  {
+    "imgsrc": "/img/5.jpg",
+    "url": "/Gallery?cat=3",
+    "title": "כלי בית"
+
+  },
+  {
+    "imgsrc":"/img/1608002.webp",
+    "url": "/Gallery?cat=4",
+    "title": "בלונים וקישוטים"
+
+  },
+  {
+    "imgsrc":"/img/18.jpg",
+    "url": "/Gallery?cat=5",
+    "title": "מחלקת תינוקות"
+
+  }
+
+]

@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+font-family: 'Arimo', sans-serif;
+
+  /* direction: rtl */
+
+}
+body{
+ direction: rtl;
+ background-image: url('./img/pink.jpg');
+ background-size:cover;
+ font-weight: bold;
+background-repeat: no-repeat;
+}
+h1{
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+
+  /* font-family: 'Akaya Telivigala', cursive; */
+  text-align: center;
+  color:white;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  background-color:  #ffbf80
+}

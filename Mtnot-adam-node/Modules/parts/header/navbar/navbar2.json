@@ -1,0 +1,18 @@
+[
+{
+"url":"/Fav",
+  "cName":"nav-links",
+  "icon":"fa fa-heart"
+},
+{
+  "url":"/Shop",
+  "cName":"nav-links",
+  "icon":"fa fa-shopping-bag"
+
+},
+{
+  "url":"/payment",
+  "cName":"nav-links",
+  "icon":"fa fa-cc-paypal"
+}
+]

@@ -1,0 +1,41 @@
+[
+{
+"title":"דף הבית",
+"url":"/Home",
+"cName":"nav-links",
+"icon":"fa fa-home"
+},
+{
+"title":"אודות",
+"url":"/Aboutus",
+"cName":"nav-links"
+},
+{
+"title":"הרשמה",
+"url":"/Signup",
+"cName":"nav-links",
+"icon":"fa fa-user-circle"
+},
+{
+"title":"התחברות",
+"url":"/LogIn",
+"cName":"nav-links",
+"icon":"fa fa-toggle-on"
+},
+{
+"title":"כתבו עלינו",
+"url":"/FeedBack",
+"cName":"nav-links"
+},
+{
+ "title":"צרו קשר",
+  "url":"/Contactus",
+  "cName":"nav-links",
+  "icon":"fa fa-comments"
+},
+{
+"title":"הנהלה",
+"url":"/BoosOnly",
+"cName":"nav-links"
+}
+]

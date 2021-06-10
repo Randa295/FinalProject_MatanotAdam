@@ -1,0 +1,23 @@
+h1 {
+  background-position: center;
+  width: 30%;
+  text-align: center;
+
+}
+
+.table-button {
+  margin: 8px;
+}
+
+.form-check .form-check-input {
+  left: 15%;
+}
+
+.close {
+  position: absolute;
+  left: 0px;
+}
+
+.form-group label {
+  float: right;
+}

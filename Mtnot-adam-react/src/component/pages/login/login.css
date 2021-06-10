@@ -1,0 +1,82 @@
+#formlogin .input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+#formlogin .input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#formlogin .input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+#formlogin .textarea{
+  height:80px;
+}
+#formlogin .container {
+border-radius: 5px;
+margin-bottom:20px;
+width: 80%;
+text-align: right;
+
+}
+
+#formlogin .form-control{
+width: 100%;
+}
+.intro {
+font-size: 150%;
+color: red;
+}
+
+h2{
+font-size: 50px;
+text-align: center;
+color:#ff8000;
+text-shadow: 4px 4px 4px white;
+}
+
+
+#formlogin .labeltitle{
+  direction: rtl;
+}
+#formlogin.login{
+  text-align: right;
+}
+
+#formlogin .loginContainer {
+  width: 60%;
+}
+
+.login-form-check{
+position: absolute;
+padding-top: 10px;
+}
+
+.login-check-label {
+  position: absolute;
+  right: 20px;
+  width: 100px;
+}
+
+.login-check-input {
+  position: absolute;
+  right: 0;
+}
+
+.form-login-error {
+  margin-top: 60px;
+  color: red;
+}

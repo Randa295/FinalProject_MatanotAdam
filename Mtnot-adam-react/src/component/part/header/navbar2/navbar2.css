@@ -1,0 +1,38 @@
+#navbar2 .Navbaritems {
+  background : #ffcc99 cover;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  /* margin-bottom: 100px; */
+}
+#navbar2 .nav-menu{
+  display:flex;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  list-style: none;
+  justify-content:right
+
+}
+
+#navbar2 .nav-links {
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: center;
+}
+
+#navbar2 .nav-links:hover{
+  background-color:  #ffb366;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+
+
+#navbar2 .nav-links-mobile{
+  display: none;
+}
+
+#navbar2 .menu-icon{
+  display: none;
+}

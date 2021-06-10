@@ -1,0 +1,63 @@
+#category .container {
+  width: 100%;
+  max-width: 400px;
+  justify-content: center;
+}
+
+#category .image {
+  display: block;
+  width: 200%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: #fff2e6;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+  color: #ff9933;
+}
+
+.icon {
+  color: #ff9933;
+  font-size:20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: left;
+}
+.fa-user:hover {
+  color:  #ff944d;
+  box-shadow: none;
+}
+#category .nav-links:hover{
+  background-color:  #ffb366;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+  color: #fff;
+  box-shadow: noness;
+}
+#text.a {
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+.a {
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+  box-shadow: none;
+}

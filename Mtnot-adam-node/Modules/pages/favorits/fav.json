@@ -1,0 +1,24 @@
+[
+   {
+     "img" : "img/21.jpg",
+     "title" : "כלי מטבח",
+     "text": "כלי אחסון זכוכית",
+    " url": "/Shop",
+    "icon":"fa fa-shopping-bag"
+  },
+  {
+    "img" : "img/20.jpg",
+    "title" : "כלי אירוח",
+    "text": "כוסות לתה",
+    "url": "/Shop",
+    "icon":"fa fa-shopping-bag"
+  },
+  {
+    "img" : "img/22.jpg",
+    "title" : "עיצוב לבית",
+    "text":"קופסת טישו",
+    "url" : "/Shop",
+    "icon":"fa fa-shopping-bag"
+  }
+
+]
