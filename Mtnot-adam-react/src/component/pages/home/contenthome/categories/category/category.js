@@ -2,13 +2,14 @@ import React from "react";
 import Masony from "react-masonry-component";
 import Header from '../../../../../part/header/header.js';
 import Footer from '../../../../../part/footer/footer.js';
-import "../gallery/gallery.css";
+import "./gallery.css";
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
 class Gallery extends React.Component {
   constructor(props) {
     super(props);
+
     let search = window.location.search;
     let params = new URLSearchParams(search);
     let cat = params.get('cat');

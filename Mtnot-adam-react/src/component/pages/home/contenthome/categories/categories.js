@@ -9,7 +9,7 @@ class Galleryhome extends React.Component{
   }
   render(){
     if (this.props.data){
-       return (<p> error</p>)
+       return <i class="fa fa-spinner"></i>
   }
       const masonryOptions = {
         fitWidth: false,

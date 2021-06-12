@@ -2,7 +2,6 @@ import React from 'react';
 import Formitem from './formitem.js'
 
 
-
 class Form extends React.Component{
   constructor() {
       super();

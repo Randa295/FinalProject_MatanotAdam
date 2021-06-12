@@ -21,7 +21,7 @@ componentDidMount() {
     return(
       <div className="container-fluid">
       <Header data={this.state.data.Header}/>
-       <Content/>
+        <Content data={this.state.data.Content} picture_url={this.state.data.picture_url}/>
        <Footer data={this.state.data.Footer}/>
       </div>
     )

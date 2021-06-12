@@ -7,14 +7,14 @@
 .photo-item {
     display: flex;
     width: 300px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, .12);
+    box-shadow: 0 5px 10px  #fff;
     margin: 20px 0;
 }
 
 .photo-item img {
     display: flex;
     width: 100%;
-    border: 4px double rgba(0, 0, 0, .12);
+    border: 4px double #ff8000;
 }
 .modal-title{
     margin-top: 0px;
@@ -32,4 +32,9 @@
 #contained-modal img{
     width: 60%;
     height: auto;
+}
+.btn-primary {
+    color: #fff;
+    background-color:#ff8000;
+    border-color: #fff;
 }

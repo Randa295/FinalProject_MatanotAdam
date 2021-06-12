@@ -20,7 +20,7 @@
   width: 100%;
   opacity: 0;
   transition: .3s ease;
-  background-color: #fff2e6;
+  background-color: #fff;
 }
 
 .container:hover .overlay {
@@ -30,6 +30,7 @@
 
 .icon {
   color: #ff9933;
+
   font-size:20px;
   position: absolute;
   top: 50%;
@@ -37,6 +38,10 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: left;
+}
+a.icon{
+  box-shadow: #ff9933;
+  color: #ff944d;
 }
 .fa-user:hover {
   color:  #ff944d;

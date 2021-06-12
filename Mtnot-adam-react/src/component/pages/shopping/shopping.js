@@ -17,7 +17,7 @@ componentDidMount() {
 
  render(){
    if (this.state.data.length===0)
-      return (<p>error!</p>);
+      return <i class="fa fa-spinner"></i>;
 
     return(
       <div id="shop" className="container-fluid">
