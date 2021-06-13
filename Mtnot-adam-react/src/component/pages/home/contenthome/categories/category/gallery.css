@@ -16,6 +16,7 @@
     width: 100%;
     border: 4px double #ff8000;
 }
+
 .modal-title{
     margin-top: 0px;
     padding: 0%;
@@ -27,14 +28,40 @@
     position:absolute;
     margin-top: 10px;
     margin-left: 2px;
-
 }
+
 #contained-modal img{
     width: 60%;
     height: auto;
 }
-.btn-primary {
+#contained-modal .btn-primary {
     color: #fff;
-    background-color:#ff8000;
-    border-color: #fff;
+    background-color: #ffb366;
+    box-shadow: #fff;
+    border-color:#000;
+    
 }
+.btn-primary {
+    box-shadow: none;
+    color: #fff;
+    background-color:#ffb366;
+    border-color: #000;
+}
+.btn-primary :hover{
+    background-color:#ffb366;
+    color: #fff;
+
+}
+
+#contained-modal input{
+margin-top:10px;
+padding: 8px;
+float:right;
+margin-left: 10px;
+width: auto;
+background-color: #ffb366;
+box-shadow: #fff;
+border-color:#000;
+color: #fff;
+}
+

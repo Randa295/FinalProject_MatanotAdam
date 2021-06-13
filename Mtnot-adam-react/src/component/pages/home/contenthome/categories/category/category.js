@@ -34,22 +34,15 @@ class Gallery extends React.Component {
           <Modal.Title id="contained-modal">
             <img id="imagemodal" src={this.state.modalImg} alt="" /> 
             <input  value={this.state.modalName} onChange={(event) => this.setState({ modalName: event.target.value })} />
-            {/* }
-            //set image width to 100% and height to 500px padding 0 margin 0
-            //set the X class to position: absolute and add top: 10px, left: 2px
-            } */}
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body>
-        <input  value={this.state.modalPrice} onChange={(event) => this.setState({ modalPrice: event.target.value })} />
-        <input class="form-control" type="number" value={this.state.modalQuantity} onChange={(event) => this.setState({ modalQuantity: event.target.value })} />
+        <Modal.Body id="contained-modal">
+          <input  value={this.state.modalPrice} onChange={(event) => this.setState({ modalPrice: event.target.value })} />
+          <input class="form-control" type="number" value={this.state.modalQuantity} onChange={(event) => this.setState({ modalQuantity: event.target.value })} />
 
-          {
-          // Add padding to the input padding: 8px
-          }
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={this.state.onHide}>הוספה לסל</Button>
+          <Button id="contained-modal" onClick={this.state.onHide}>הוספה לסל</Button>
         </Modal.Footer>
       </Modal>
     );
@@ -95,7 +88,7 @@ class Gallery extends React.Component {
 
   render() {
     if (this.state.data === undefined){
-        return (<p>Error</p>)
+        return <i class="fa fa-spinner"></i>
     }
     return (<div className="container-fluid">
       <Header data={this.state.data.Header} />

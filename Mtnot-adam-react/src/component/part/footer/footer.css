@@ -12,13 +12,14 @@ box-shadow: none;
 
 #footer .nav-menu{
   display:flex;
-  grid-template-columns: repeat(5, auto;);
+  grid-template-columns: repeat(5, auto);
   grid-gap: 10px;
   list-style: none;
   text-align: center;
   width: 70vw;
   justify-content: center;
   margin-right:10rem;
+  margin-top: 30px;
 }
 
 #footer .nav-links {
