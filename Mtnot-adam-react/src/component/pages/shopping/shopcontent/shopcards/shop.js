@@ -1,55 +1,64 @@
 import React from "react";
+import ShoppingCartOverlay from './shoppingoverlay.js';
+import ProductList from './productslist.js';
+import  HeaderShop from './headershop.js';
 
 
-class Shop extends React.Component {
-  state = {
-    products: [
-      {title: 'Apple', count: 0, price: 100},
-      {title: 'IBM', count: 0, price: 200},
-      {title: 'HP', count: 0, price: 300},
-    ]
+const shoppingProducts = [
+  {id: 0, name: "Nike VaporFly 4% Flyknit", price: 209, image:"/img/(13).jpg", quantityInCart: 0, inCart: false}, 
+  {id: 1, name: "Nike Air Monarch IV PR", price: 89, image:"/img/(11).jpg", quantityInCart: 0, inCart: false},
+  {id: 2, name: "Nike Air Max Deluxe SE", price: 149, image:"/img/(12).jpg", quantityInCart: 0, inCart: false}
+];
+
+
+class ShoppingCartApp extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      items: shoppingProducts,
+      quantity: 0,
+      amountToPay: 0,
+      itemsInCart: []
+    }
+    this.addToCart = this.addToCart.bind(this);
+    this.removeFromCart = this.removeFromCart.bind(this);
   }
-  
-  onChange = (index, val) => {
+  addToCart(item) {
+    let itemsInCart = this.state.itemsInCart;
+    itemsInCart.push(this.props.items[item.id]);
+    shoppingProducts[item.id].inCart = true;
+    shoppingProducts[item.id].quantityInCart = 1;
     this.setState({
-      products: this.state.products.map((product, i) => (
-        i === index ? {...product, count: val} : product
-      ))
-    })
+      quantity: this.state.quantity + 1,
+      amountToPay: this.state.amountToPay + this.props.items[item.id].price,
+      itemsInCart: itemsInCart,
+      items: shoppingProducts
+    });
   }
-
-  render () {
+  removeFromCart(item, indexInCart) {
+    let itemsInCart = this.state.itemsInCart;
+    shoppingProducts[item.id].inCart = false;
+    shoppingProducts[item.id].quantityInCart = 0;
+    itemsInCart.splice(indexInCart, 1);
+    this.setState({
+      quantity: this.state.quantity - 1,
+      amountToPay: this.state.amountToPay - this.props.items[item.id].price,
+      itemsInCart: itemsInCart,
+      items: shoppingProducts
+    });
+  }
+  render() {
     return (
-      <div>
-        <ProductList products={this.state.products} onChange={this.onChange} />
-        <Total products={this.state.products} />
-      </div>
+      <main>
+        < HeaderShop quantity={this.state.quantity}
+          amountToPay={this.state.amountToPay} />
+        <ShoppingCartOverlay data={this.state}
+          removeFromCart={this.removeFromCart} />
+        <ProductList items={this.state.items}
+          addToCart={this.addToCart} />
+      </main>
     )
   }
-};
+}
 
-const ProductList = ({ products, onChange }) => (
-  <ul>
-    {products.map((product, i) => (
-      <li key={i}>
-        {product.title}
-        <input 
-          type="text" 
-          value={product.count}
-          onChange={e => onChange(i, parseInt(e.target.value) || 0)}
-        />
-      </li>
-    ))}
-  </ul>
-);
-
-const Total = ({ products }) => (
-  <h3>
-    Price: 
-    {products.reduce((sum, i) => (
-      sum += i.count * i.price
-    ), 0)}
-  </h3>
-)
-
-export default Shop;
+export default ShoppingCartApp

@@ -52,7 +52,7 @@ class Formsignup extends React.Component {
     return (
       <div className="container loginContainer">
         {err}
-        <h2>הירשמו וקבלו 15% הנחה</h2>
+        <h3>הירשמו וקבלו 15% הנחה</h3>
         {formComponents}
         <div className="form-group">
           <button onClick={() => this.handleSubmit()} className="mb-2 float-left btn btn-secondary">שלח</button>

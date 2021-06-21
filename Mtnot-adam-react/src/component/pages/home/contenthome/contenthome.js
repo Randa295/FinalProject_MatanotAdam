@@ -7,7 +7,7 @@ class ContentHome extends React.Component{
   render(){
     return(
       <div className="ml-5">
-      <img src= "../../../../img/img1.webp" alt=""/>
+        <img src= "../../../../img/img1.webp" alt=""/>
       <div className=" mr-5 mt-5 container-fluid justify-content-center">
       <div className="mr-5 justify-content-center">
         < Galleryhome categories={this.props.data.Categories}/>
@@ -16,8 +16,8 @@ class ContentHome extends React.Component{
     <div className="mt-5 mb-5 row justify-content-center">
     <MyCarousel carousel={this.props.data.Carousel}/>
     </div>
-    <div className="mr-5 mt-5 row justify-content-center ">
-    <h1> המוצרים המובלים של שבוע </h1>
+    <div className="row justify-content-center ">
+    <h1>המוצרים המובלים של השבוע</h1>
     </div>
       < VideoHome/>
   </div>

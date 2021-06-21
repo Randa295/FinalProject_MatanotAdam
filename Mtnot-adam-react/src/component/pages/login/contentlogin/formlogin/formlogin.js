@@ -48,7 +48,7 @@ class Formlogin extends React.Component {
         inputtype={item.inputtype}
         inputcName={item.inputcName}
         handleInputChange={this.handleInputChange}
-        s name={item.name}
+        name={item.name}
       />)
 
     const err = this.state.displayMessage !== null ? (<div className="form-login-error">{this.state.displayMessage}</div>) : (<></>)
@@ -56,7 +56,7 @@ class Formlogin extends React.Component {
       <>
       <div className="container">
         <div className="container loginContainer">
-          <h2>כדי להתחבר לאתר נא למלא את הפרטים</h2>
+          <h3>כדי להתחבר לאתר נא למלא את הפרטים</h3>
           {formComponents}
           <div className="form-group form-check login-form-check">
           <label className="form-check-label login-check-label">

@@ -42,7 +42,12 @@ class Gallery extends React.Component {
 
         </Modal.Body>
         <Modal.Footer>
-          <Button id="contained-modal" onClick={this.state.onHide}>הוספה לסל</Button>
+        <Button className="mb-2 float-left btn btn-secondary" id="contained-modal">
+          <a  href={this.state.modalUrl}>
+           <i className={this.state.modalIcon}></i> 
+          </a>    
+          </Button>
+          <Button className="mb-2 float-left btn btn-secondary" id="contained-modal" onClick={this.state.onHide}>הוספה לסל</Button>
         </Modal.Footer>
       </Modal>
     );
@@ -60,7 +65,9 @@ class Gallery extends React.Component {
             modalName: photo.name,
             modalImg: photo.imgsrc, 
             modalPrice: photo.price, 
-            modalQuantity: photo.quantity})}>
+            modalUrl:photo.url,
+            modalQuantity: photo.quantity,
+            modalIcon: photo.icon})}>
         <img src={photo.imgsrc} alt="" />
       </li>)
     )

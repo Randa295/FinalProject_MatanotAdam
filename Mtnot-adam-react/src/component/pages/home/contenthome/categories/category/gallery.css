@@ -34,12 +34,11 @@
     width: 60%;
     height: auto;
 }
-#contained-modal .btn-primary {
+#contained-modal .btn {
     color: #fff;
     background-color: #ffb366;
     box-shadow: #fff;
     border-color:#000;
-    
 }
 .btn-primary {
     box-shadow: none;
@@ -47,10 +46,11 @@
     background-color:#ffb366;
     border-color: #000;
 }
-.btn-primary :hover{
+
+#contained-modal.btn .nav-links:hover{
     background-color:#ffb366;
     color: #fff;
-
+    box-shadow: none;
 }
 
 #contained-modal input{
@@ -58,7 +58,7 @@ margin-top:10px;
 padding: 8px;
 float:right;
 margin-left: 10px;
-width: auto;
+width: 25%;
 background-color: #ffb366;
 box-shadow: #fff;
 border-color:#000;

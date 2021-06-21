@@ -12,7 +12,6 @@
   grid-template-columns: repeat(5, auto);
   grid-gap: 10px;
   list-style: none;
-  justify-content:right
 
 }
 
@@ -21,12 +20,19 @@
   text-decoration: none;
   font-size: 1rem;
   text-align: center;
+  border-color: #000;
+  background-color:#ffcc99 ;
+  border-style:ridge;
+
 }
 
 #navbar2 .nav-links:hover{
   background-color:  #ffb366;
   border-radius: 4px;
   transition: all 0.2s ease-out;
+  box-shadow: none;
+  color: #fff;
+
 }
 
 

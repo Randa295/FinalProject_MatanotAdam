@@ -1,4 +1,3 @@
-const footerjson = require('./footer.json')
 const DB = require('../../../general-db');
 
 

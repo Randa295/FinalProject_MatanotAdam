@@ -1,5 +1,5 @@
 import React from 'react';
-import  Shop  from './shopcards/shop.js';
+import  ShoppingCartApp from './shopcards/shop.js';
 
 class Content extends React.Component{
   constructor(props) {
@@ -9,7 +9,7 @@ class Content extends React.Component{
   render(){
     return(
       <div className="ml-5">
-       < Shop data={this.props.data} />
+       < ShoppingCartApp data={this.props.data} />
       </div>
   )}
 }
