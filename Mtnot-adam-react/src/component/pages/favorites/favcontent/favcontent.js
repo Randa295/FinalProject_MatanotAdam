@@ -10,9 +10,7 @@ class Content extends React.Component{
   render(){
 
     return(
-      <div className="col-4">
       <Favcards data={this.props.data}/>
-      </div>
   )}
 }
 

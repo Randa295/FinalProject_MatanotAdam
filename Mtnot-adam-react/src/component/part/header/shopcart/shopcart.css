@@ -1,0 +1,33 @@
+#cart .fa {
+  color: black;
+  font-size: 1rem;
+  border-color: #000;
+  background-color: #ffcc99;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 5px;
+  height:38px;
+  width: 45px;
+  border-width: thin;
+border-style: ridge;
+
+}
+
+i.fa.fa-shopping-bag{
+  text-align: center;
+align-items: center;
+padding-top:6px;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+}
+#shopping-cart {
+  flex-direction: column;
+  background-color: rgb(243,243,243);
+  z-index: 3;
+  height: 90%;
+  width: 90%;
+}

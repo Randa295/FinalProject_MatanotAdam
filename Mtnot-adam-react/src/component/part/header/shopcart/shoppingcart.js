@@ -1,4 +1,5 @@
 import React from "react";
+import './shopcart.css';
 
 
 class ShoppingCart extends React.Component {

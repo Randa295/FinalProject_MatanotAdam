@@ -22,16 +22,14 @@ h1{
   height: 50px;
   text-align: center;
   color:white;
-  margin-bottom: 15px;
-  margin-top: 5px;
+  margin-bottom:5px;
   background-color:  #ffbf80;
 
 }
 h2{
   color: black;
   font-family: 'Pacifico', cursive;
-  text-shadow: 2px 2px 2px rgb(255,255,255);
+  text-shadow: 2px 0px 2px rgb(255,255,255);
   font-size: 6rem;
-  margin-top: 5px;
-  margin-bottom: 5%;
+  margin-bottom: 2px;
 }

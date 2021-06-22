@@ -36,7 +36,7 @@ class Gallery extends React.Component {
             <input  value={this.state.modalName} onChange={(event) => this.setState({ modalName: event.target.value })} />
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body id="contained-modal">
+        <Modal.Body id="input-modal">
           <input  value={this.state.modalPrice} onChange={(event) => this.setState({ modalPrice: event.target.value })} />
           <input class="form-control" type="number" value={this.state.modalQuantity} onChange={(event) => this.setState({ modalQuantity: event.target.value })} />
 
