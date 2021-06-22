@@ -240,12 +240,12 @@ class Tabls extends React.Component {
                 )
               })}
             </select>
-            <button type="button" class="btn btn-secondary mr-sm-2" onClick={() => this.filterData()}>חפש</button>
+            <button type="button" class="btn btn-light mr-sm-2" onClick={() => this.filterData()}>חפש</button>
             <button type="button" class="btn btn-danger mr-sm-2" onClick={() => this.clearFilter()}>נקה</button>
           </form>
         </div>
         <button type="button" className="btn btn-danger table-button" onClick={() => this.handleTableDelete()}>מחק</button>
-        <button type="button" className="btn btn-secondary table-button" onClick={() => { this.setState({ showEdit: true }) }}>ערוך</button>
+        <button type="button" className="btn btn-light table-button" onClick={() => { this.setState({ showEdit: true }) }}>ערוך</button>
         <button type="button" className="btn btn-success table-button" onClick={() => { this.setState({ show: true }) }}>הוסף</button>
         <Table striped bordered hover>
           <thead>

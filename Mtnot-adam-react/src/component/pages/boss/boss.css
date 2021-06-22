@@ -30,3 +30,9 @@ h1 {
 .form-group label {
   float: right;
 }
+#boss .btn-secondary {
+  color: #fff;
+  background-color: #ffb366;
+  border-color: #000;
+  height: 50px;
+}

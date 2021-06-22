@@ -59,8 +59,7 @@ class Formlogin extends React.Component {
           <h3>כדי להתחבר לאתר נא למלא את הפרטים</h3>
           {formComponents}
           <div className="form-group form-check login-form-check">
-          <label className="form-check-label login-check-label">
-           זכור אותי           </label>
+          <label className="form-check-label login-check-label"> </label>
            <input  className="form-check-input login-check-input" type="checkbox" name="remember" required/> 
 
         </div>

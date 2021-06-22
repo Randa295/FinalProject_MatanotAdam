@@ -14,7 +14,7 @@
 .photo-item img {
     display: flex;
     width: 100%;
-    border: 4px double #ff8000;
+    border: 4px double #ffb366;
 }
 
 .modal-title{
@@ -41,11 +41,19 @@
     box-shadow: #fff;
     border-color:#000;
 }
-.btn-primary {
+#contained-modal .btn-primary {
     box-shadow: none;
     color: #fff;
     background-color:#ffb366;
     border-color: #000;
+    width: 10px;
+}
+.btn-secondary {
+    color: #fff;
+    background-color: #ffb366;
+    border-color: #000;
+    width: 20%;
+    height: 50px;
 }
 
 #contained-modal.btn .nav-links:hover{
